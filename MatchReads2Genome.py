@@ -1,8 +1,8 @@
+#!/usr/bin/python
+
 ###Matching READS from a FASTQ file to a GENOME###
 
 ###Reference: Algorithms for DNA Sequencing Course, part of Specialization in Genomic Data Science by Johns Hopkins University on [Coursera]###
-
-#!/usr/bin/python
 
 print("This is a program to match READS from a FASTQ file to a GENOME\n")
 
