@@ -1,4 +1,7 @@
 #!/usr/bin/perl -w
+
+###This is a perl script to calculate: the GC content(%) of the query DNA sequence and the Melting temperature (Tm) of the primer###
+
 print "Please enter your sequence : \n";
 $DNA = <STDIN>;
 chomp($DNA);
