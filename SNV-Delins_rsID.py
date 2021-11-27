@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 ####This is a python program to extract the rs_ID and SNV's or DELINS from the SNP_file####
 
 #Importing the python regular expression(re) module
