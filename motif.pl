@@ -1,5 +1,7 @@
 #!/usr/bin/perl -w
 
+###This is a perl script for searching MOTIF sequence in the user-input sequence file####
+
 #Prompting the user to enter the name of the file containing the protein data
 print "Please enter the name of the file containing the sequence : \n";
 chomp($file = <STDIN>);
