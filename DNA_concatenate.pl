@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-###Perl script showing concatenation of the DNA by 3 different methods
+###Perl script showing concatenation of DNA sequence by 3 different methods
 
 print "Please enter the first DNA sequence:\n";
 chomp($DNA1 = <STDIN>);
