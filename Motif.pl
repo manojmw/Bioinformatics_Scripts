@@ -28,7 +28,7 @@ $protein = join('', @protein);
 $protein =~ s/\s//g;
 
 #Using Do-Until Loop
-#Doing (Prompting the user to enter the MOTIF sequence, searching for the motif and printing the results;)
+#Doing (Prompting the user to enter the MOTIF sequence, searching for the motif and printing the results ;)
 #a set of tasks until a specific condition (exiting the do-until loop when there is no user input) is satisfied
 do
 {
