@@ -46,9 +46,4 @@ do
       }
 } until($motif =~ /^\s*$/);
 
-#Number of occurences and Position
-#Calculatin the GC content from a DNA $file
-#Subroutine to read FASTA files
-#Subroutine - Area and Melting temperature
-
 exit;
