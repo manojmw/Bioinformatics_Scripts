@@ -11,7 +11,7 @@ def readgenome(myfile):
     with open(myfile, 'r') as GSEQHANDLE:
         for line in GSEQHANDLE:
             if not line[0] == '>': ###Since the first like starts with '>', we will ignore this line and store only the sequence (which starts from the second line in a FASTA file).
-                line = line.rstrip()
+                line = line.rstrip() ###Removing any trailing spaces
                 genome += line
     return genome
     GSEQHANDLE.close()
