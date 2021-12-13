@@ -16,5 +16,5 @@ def readgenome(myfile):
     return genome
     GSEQHANDLE.close()
 
-print("Here is your Genomic Sequence:")
+print("Here is your Genomic Sequence: \n")
 print(readgenome(myfile))
