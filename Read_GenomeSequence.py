@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-###Reading Genome from a FASTA file###
+###Reading Genome from a FASTA file and printing only the sequence###
 try:
     myfile = input("Please enter the file name:")
 except IOError:
@@ -8,13 +8,13 @@ except IOError:
 
 def readgenome(myfile):
     genome = ''
-    with open(myfile, 'r') as GENOMEHANDLE:
-        for line in GENOMEHANDLE:
-            if not line[0] == '>':
+    with open(myfile, 'r') as GSEQHANDLE:
+        for line in GSEQHANDLE:
+            if not line[0] == '>': ###Since the first like starts with '>', we will ignore this line and store only the sequence (which starts from the second line in a FASTA file).
                 line = line.rstrip()
                 genome += line
     return genome
-    GENOMEHANDLE.close()
+    GSEQHANDLE.close()
 
-print("Here is your Genome Sequence:")
+print("Here is your Genomic Sequence:")
 print(readgenome(myfile))
