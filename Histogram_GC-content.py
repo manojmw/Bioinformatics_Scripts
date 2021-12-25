@@ -28,7 +28,7 @@ reads = READFASTQ(file)
 
 def GCHIST(reads):
     GC = [0] * 100      ###GC will store the number of GC bases at each position###
-                            ###All the reads are of length 100 in the given FASTQ file###
+                        ###All the reads are of length 100 in the given FASTQ file###
     total = [0] * 100   ###Keeping track of total bases###
 
     for read in reads:
