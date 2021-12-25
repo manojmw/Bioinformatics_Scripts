@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+###Reference: Specialization in Genomic Data Science by Johns Hopkins University on [Coursera]###
+
+###Importing modules
 import matplotlib.pyplot as plt
 
 print("This is a program to plot the GC content of the sequence from a FASTQ file\n")
