@@ -2,6 +2,11 @@
 
 ###Perl script showing concatenation of DNA sequence by 3 different methods###
 
+###Written by: Manoj M Wagle
+###Date: 13 November, 2020
+###Email: [manoj.wagle@learner.manipal.edu]
+###Department: Department of Bioinformatics, Manipal School of Life Sciences, Manipal, MAHE, Karnataka, India - 576104
+
 print "Please enter the first DNA sequence:\n";
 chomp($DNA1 = <STDIN>);
 print "Please enter the second DNA sequence:\n";
