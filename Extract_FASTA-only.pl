@@ -3,6 +3,12 @@
 use strict;
 use warnings;
 
+###Written by: Manoj M Wagle
+###Date: 24 December, 2020
+###Email: [manoj.wagle@learner.manipal.edu]
+###Department: Department of Bioinformatics, Manipal School of Life Sciences, Manipal, MAHE, Karnataka, India - 576104
+
+
 print "\nThis is a program to extract and display only the sequence from a FASTA file\n\n";
 print "Please enter the name of the file : \n";
 chomp(my $user = <>);
