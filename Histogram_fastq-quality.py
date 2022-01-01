@@ -1,4 +1,7 @@
 #!/usr/bin/python
+
+###Reference: Specialization in Genomic Data Science by Johns Hopkins University on [Coursera]###
+
 import matplotlib.pyplot as plt
 
 print("This is a program to create Histogram of the Quality Scores\n")
