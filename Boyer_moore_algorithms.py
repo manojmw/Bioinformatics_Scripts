@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
-###Reference: Algorithms for DNA Sequencing Course, part of Specialization in Genomic Data Science by Johns Hopkins University on [Coursera]###
+###Reference: Algorithms for DNA Sequencing Course, part of Specialization in Genomic Data Science by Johns Hopkins University on Coursera. 
+###           All credits belong to the original authors (https://github.com/BenLangmead/ads1-notebooks)
 
 import string
 
