@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
 ###Getting the reverse complement of the query DNA sequence
-###Reference: Python for Genomic Data Science Course, part of Specialization in Genomic Data Science by Johns Hopkins University on [Coursera]###
+
+###Reference: Python for Genomic Data Science Course, part of Specialization in Genomic Data Science by Johns Hopkins University on Coursera.
+###           All credits belong to the original authors.
 
 ####METHOD - 1####
 DNA = input("Please enter the DNA sequence:")
