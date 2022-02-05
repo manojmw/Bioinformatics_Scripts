@@ -2,6 +2,12 @@
 
 #Perl program to print the genetic code for the user input amino acid
 
+###Written by: Manoj M Wagle
+###Date: 27 November, 2020
+###Email: [manoj.wagle@learner.manipal.edu]
+###Department: Department of Bioinformatics, Manipal School of Life Sciences, Manipal, MAHE, Karnataka, India - 576104
+
+
 #Prompting the user to enter the amino acid
 print "Please enter the name of the amino acid : \n";
 chomp($amino = <STDIN>);
