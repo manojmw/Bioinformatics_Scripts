@@ -2,6 +2,11 @@
 
 ###This is a perl script to calculate: the GC content(%) of the query DNA sequence and the Melting temperature (Tm)###
 
+###Written by: Manoj M Wagle
+###Date: 18 November, 2020
+###Email: [manoj.wagle@learner.manipal.edu]
+###Department: Department of Bioinformatics, Manipal School of Life Sciences, Manipal, MAHE, Karnataka, India - 576104
+
 print "Please enter your sequence : \n";
 $DNA = <STDIN>;
 chomp($DNA);
