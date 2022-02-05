@@ -2,6 +2,11 @@
 
 ####This is a python program to extract the rs_ID and SNV's or DELINS from the SNP_file####
 
+###Written by: Manoj M Wagle
+###Date: 6 January, 2021
+###Email: [manoj.wagle@learner.manipal.edu]
+###Department: Department of Bioinformatics, Manipal School of Life Sciences, Manipal, MAHE, Karnataka, India - 576104
+
 #Importing the python regular expression(re) module
 import re
 
