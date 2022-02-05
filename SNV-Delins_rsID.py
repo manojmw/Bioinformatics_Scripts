@@ -21,6 +21,7 @@ for line in SNP_file:
     rs_ID = re.findall('[\d]+. rs[\d]+',line) #matching the rs id's
     SNV = re.findall('^SNV:.+', line) #matching the SNV's
     Deletions = re.findall('^DELINS:.+', line) #matching the DELINS
+
 #Printing the matched characters
     if len(rs_ID)>0:
         print(rs_ID)
@@ -28,5 +29,6 @@ for line in SNP_file:
         print(SNV,"\n")
     if len(Deletions)>0:
         print(Deletions,"\n")
+
 #Closing the file
 SNP_file.close()
