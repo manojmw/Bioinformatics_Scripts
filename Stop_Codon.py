@@ -1,7 +1,10 @@
 #!/usr/bin/python
 
 ###Checking if the query DNA sequence contains STOP codon
-###Reference: Python for Genomic Data Science Course, part of Specialization in Genomic Data Science by Johns Hopkins University on [Coursera]###
+
+###Reference: Python for Genomic Data Science Course, part of Specialization in Genomic Data Science by Johns Hopkins University on Coursera.
+###           All credits belong to the original authors.
+
 DNA = input("Please enter the DNA sequence:")
 
 #Defining the function to identify stop codon
