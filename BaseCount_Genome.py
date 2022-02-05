@@ -2,7 +2,8 @@
 
 ###Reading and Counting the frequency of each base in a Genome using the Python COLLECTIONS module###
 
-###Reference: Python for Genomic Data Science Course, part of Specialization in Genomic Data Science by Johns Hopkins University on [Coursera]###
+###Reference: Python for Genomic Data Science Course, part of Specialization in Genomic Data Science by Johns Hopkins University on Coursera.
+###           All credits belong to the original authors.
 
 import collections
 
