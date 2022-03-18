@@ -1,12 +1,16 @@
 #!/usr/bin/perl -w
 
+###Written by: Manoj M Wagle
+###Date: 17 January, 2021
+###Department: Department of Bioinformatics, Manipal School of Life Sciences, Manipal, MAHE, Karnataka, India - 576104
+
 ###This is a perl script for searching MOTIF sequence in the user-input sequence file####
 
-#Prompting the user to enter the name of the file containing the protein data
+# Prompting the user to enter the name of the file containing the protein data
 print "Please enter the name of the file containing the sequence : \n";
 chomp($file = <STDIN>);
 
-#Opening the file and associating the file with a file handler[i.e., prothandler] and if unable to open the file, printing an error message
+# Opening the file and associating the file with a file handler[i.e., prothandler] and if unable to open the file, printing an error message
 unless(open(PROTHANDLER, $file))
 {
   print STDERR "Unable to open the file '$file' \n";
@@ -14,21 +18,21 @@ unless(open(PROTHANDLER, $file))
   exit;
 }
 
-#Reading the protien data and storing it in a variable called @protein
+# Reading the protien data and storing it in a variable called @protein
 @protein = <PROTHANDLER>;
 
-#Closing the file
+# Closing the file
 close(PROTHANDLER);
 
-#Motifs are easy to search in a single string than searching in different lines
-#We will join all the characters and lines using the 'join' function including line breaks
+# Motifs are easy to search in a single string than searching in different lines
+# We will join all the characters and lines using the 'join' function including line breaks
 $protein = join('', @protein);
 
-#removing whitespaces if any so as to make it one continuous string
+# removing whitespaces if any so as to make it one continuous string
 $protein =~ s/\s//g;
 
-#Using Do-Until Loop
-#Doing (Prompting the user to enter the MOTIF sequence, searching for the motif and printing the results) a set of tasks until a specific condition (exiting the do-until loop when there is no user input) is satisfied
+# Using Do-Until Loop
+# Doing (Prompting the user to enter the MOTIF sequence, searching for the motif and printing the results) a set of tasks until a specific condition (exiting the do-until loop when there is no user input) is satisfied
 do
 {
       #Prompting the user to enter the motif sequence
